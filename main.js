@@ -1,25 +1,25 @@
-//  const countries = [
-//     'Albania',
-//     'Bolivia',
-//      'Canada',
-//     'Denmark',
-//     'Finland',
-//     'Germany',
-//     'Hungary',
-//     'Ireland',
-//     'Japan',
-//     'Kenya'
-// ]
+ const countries = [
+    'Albania',
+    'Bolivia',
+     'Canada',
+    'Denmark',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+]
 
-// const webTechs = [
-//     'HTML',
-//     'CSS',
-//     'JavaScript',
-//     'React',
-//     'Redux',
-//     'Node',
-//     'MongoDB'
-// ]
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+]
 
  var emptyArray = new Array();
 
@@ -82,9 +82,9 @@ const checkIfCompanyExist = function exist(check){
 
 const sliceTheFirstThreeItems = itCompanies.slice(0,3)
 
-const sliceTheLastThreeItems = itCompanies.slice(3, 0);  // not done
+const sliceTheLastThreeItems = itCompanies.slice(3, 0); 
 
-const sliceTheMiddleThreeItems = itCompanies.slice(4, 1) // not done
+const sliceTheMiddleThreeItems = itCompanies.slice(4, 1)
 
 console.log(sliceTheMiddleThreeItems)
 
